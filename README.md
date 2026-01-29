@@ -3,7 +3,7 @@
 **Project Title:** HealthVault: Decentralized Emergency Health Record & Blood Response System  
 **Hackathon Name:** FORTEX36  
 **Date of Submission:** 29-01-2026  
-**GitHub Repository:** [[Insert Repository(https://github.com/githu833/my-first-repo/blob/main/README.md)  
+
 
 ---
 
@@ -11,7 +11,6 @@
 
 In emergency medical situations, immediate access to a patient's medical history and rapid blood donor coordination can be the difference between life and death. **HealthVault** is a comprehensive healthcare platform designed to solve these critical delays. It provides a localized, secure system where patients can store emergency medical data (allergies, blood group, conditions) accessible via a physical **QR Code**. When scanned by emergency responders or hospitals, it provides instant, read-only access to vital profiles even if the patient is unconscious. Furthermore, the system integrates a novel **Emergency Priority Engine** built with Python, which algorithmically scores blood supply requests (0-100) based on medical urgency (e.g., Accident vs. Elective Surgery) and broadcasts SMS alerts to compatible donors using Twilio. This project bridges the gap between patient data accessibility and real-time emergency resource allocation.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -23,7 +22,6 @@ Current healthcare infrastructure often faces two fatal bottlenecks:
 
 This project addresses these gaps by creating a unified, technology-driven ecosystem for emergency identity management and intelligent blood supply chain coordination.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -45,7 +43,6 @@ This project addresses these gaps by creating a unified, technology-driven ecosy
     *   If the calculated score exceeds 85, the request is flagged as **CRITICAL**.
     *   The system automatically filters eligible, available donors and pushes **Real SMS Alerts** (via Twilio) directly to their phones.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -64,7 +61,6 @@ This project addresses these gaps by creating a unified, technology-driven ecosy
     *   **Child Processes:** Node.js communicates with Python scripts to utilize the scoring algorithms.
     *   **Twilio API:** Integrated for reliable, real-time SMS delivery to specialized medical staff/donors.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -88,7 +84,6 @@ The system follows a modular 3-tier architecture:
 **Flow:**
 `User Request` -> `React UI` -> `Node Express API` -> `Python Engine (Calculation)` -> `Twilio (SMS)` -> `User Notified`
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -115,7 +110,6 @@ The system follows a modular 3-tier architecture:
         });
         ```
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -127,7 +121,6 @@ The system follows a modular 3-tier architecture:
 3.  **Real-Time Alerts:** Integrated Twilio to send actual SMS messages to registered donor numbers when urgency thresholds were met.
 4.  **Secure Access:** Implemented ID-based search restrictions so hospitals can only view records of consenting patients.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -137,7 +130,6 @@ The system follows a modular 3-tier architecture:
 2.  **Backend Port Conflicts:** Running React and Express simultaneously caused port collisions. We implemented automation scripts (`kill-servers.bat`) to clean up zombie processes and assigned distinct ports (3000 & 3001).
 3.  **Python-Node Integration:** Passing JSON data reliably between Node.js and Python command-line arguments required careful escaping and error handling to ensure the server didn't crash on invalid inputs.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -147,7 +139,6 @@ The system follows a modular 3-tier architecture:
 2.  **Geolocation Matching:** Upgrading the Blood Response system to filter donors not just by blood type, but by their real-time GPS proximity to the hospital using the Google Maps API.
 3.  **Wearable Integration:** Automatically updating the "Patient Condition" (Heart Rate, Oxygen) via Apple Watch/Fitbit APIs when the QR code is scanned.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
@@ -155,7 +146,6 @@ The system follows a modular 3-tier architecture:
 
 HealthVault successfully demonstrates how modern web technologies and algorithmic logic can modernize emergency healthcare. By combining the accessibility of QR codes with the intelligence of a Python-based priority engine, we created a system that not only stores data but actively helps manage critical resources. The project is a working prototype of a smarter, safer, and more connected medical ecosystem.
 
-**GitHub Repository:** [Insert Repository Link Here]
 
 ---
 
